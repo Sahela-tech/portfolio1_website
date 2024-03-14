@@ -1,0 +1,216 @@
+
+.div1{
+    width: 100vw;
+    height: 550px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 230px;
+    margin: auto;
+    position: absolute;
+    background-color: #10cf9c;
+    box-shadow: 20px 20px rgb(255, 255, 255);
+
+
+}
+.active {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    position: absolute;
+    margin: auto;
+    font-family: Monospace,	Courier;
+    color: rgb(0, 0, 0);
+}
+
+.div2{
+    width: 100vw;
+    height: 237px;
+    background-color:#131111;
+    position: absolute;
+    left: 0;
+    top: 660px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.h1 {
+font-size: 30px;
+}
+.txt1 {
+    animation: text1;
+    color: rgb(0, 85, 255);
+    font-size: 50px;
+    position: absolute;
+    left: 300px;
+    top: 289px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-family: "Sigmar", sans-serif;
+}
+
+.txt2 {
+    animation: text2;
+    color: rgb(0, 85, 255);
+    font-size: 50px;
+    position: absolute;
+    left: 300px;
+    top: 289px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-family: "Sigmar", sans-serif;
+}
+
+.txt1,
+.txt2 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation-duration: 5s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+}
+
+.txt1::before {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+}
+
+.txt1::after,
+.txt2::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 5s;
+    animation-timing-function: steps(2, end);
+}
+
+@keyframes text2 {
+0%,
+50%,
+100% {
+  width: 0;
+}
+60%,
+90% {
+  width: 12.5em;
+}
+
+}
+@keyframes text1 {
+0%,
+50%,
+100% {
+  width: 0;
+}
+10%,
+40% {
+  width: 10em;
+}
+
+}
+@keyframes caret {
+0%,
+100% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+}
+}
+
+
+.btn1{
+  position: absolute;
+  margin: auto;
+  left: 30px;
+  top: 500px;
+  right: 0;
+  bottom: 0;
+  color: rgb(197, 82, 82);
+  font-size: 20px;
+
+}
+
+
+.And{
+color: rgb(255, 255, 255);
+font-size: 50px;
+font-family: "Sigmar", sans-serif;
+position: absolute;
+left: 80px;
+top: 280px;
+right: 0;
+bottom: 0;
+margin: auto;
+
+}
+
+.name{
+font-size: 70px;
+position: absolute;
+left: 90px;
+bottom: 300px;
+margin: auto;
+color: rgb(0, 0, 0);
+font-family: 'Madimi One';
+}
+
+#navigationbar{
+    position: absolute;
+    left: 500px;
+    top: 0;
+    right: 500px;
+    bottom: 0;
+    margin: auto;
+   }
+
+   .nav{
+    position: absolute;
+    left: 1100px;
+    bottom: 700px;
+    font-size: 25px;
+
+    
+  }
+
+.des{
+  position: absolute;
+  margin: auto;
+  left: 100px;
+  top: 580px;
+  right: 0;
+  bottom: -0;
+  color: rgb(117, 114, 114);
+  font-family: "Kode Mono", monospace;
+
+
+}
+
+.favi{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin: auto;
+  left: 400px;
+  top: 0;
+  right: 0;
+  bottom: 250px;
+}
+.boy{
+  position: absolute;
+  margin: auto;
+  left: 980px;
+  top: 140px;
+
+}

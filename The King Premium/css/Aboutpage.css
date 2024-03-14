@@ -1,0 +1,271 @@
+
+body{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+}
+
+/*font*/
+.sigmar-one-regular {
+    font-family: "Sigmar One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .angkor-regular {
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 190px;
+    right: 0;
+    bottom: 0;
+
+  }
+  
+  .single-chart {
+    width: 50%;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #131212;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.orange .circle {
+    stroke: #37ff00;
+  }
+  
+  .circular-chart.green .circle {
+    stroke: #ff0059;
+  }
+  
+  .circular-chart.blue .circle {
+    stroke: #00c8ff;
+  }
+  .circular-chart.red .circle{
+    stroke: rgb(85, 0, 255);
+  }
+  
+  .percentage {
+    fill: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
+
+ #percentage{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: -49.5px;
+    right: 0;
+    bottom: 0;
+}
+
+.web,
+.graphic,
+.software,
+.ui {
+  position: absolute;
+  margin: auto;
+  top: 475px;
+  font-family: "Sigmar One", sans-serif;
+}
+
+.web{
+    color: #37ff00;
+    left: 80px;
+    right: 0;
+    bottom: 0;
+   
+}
+
+.graphic{
+    color:  #ff0059;
+    position: absolute;
+    margin: auto;
+    left: 530px;
+    top: 475px;
+    right: 0;
+    bottom: 0;
+   
+}
+
+.software{
+    color: rgb(85, 0, 255);
+    position: absolute;
+    margin: auto;
+    left: 870px;
+    top: 475px;
+    right: 0;
+    bottom: 0;
+  
+}
+.ui{
+    color: #00c8ff;
+    position: absolute;
+    margin: auto;
+    left: 1320px;
+    top: 475px;
+    right: 0;
+    bottom: 0;
+} 
+
+
+.email,
+.call,
+.locate {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: auto;
+}
+
+ .locate{
+
+    left: 0;
+    top: 650px;
+    right: 1100px;
+    bottom: 0;
+
+} 
+
+.call{
+    left: 30px;
+    top: 656px;
+    right: 0;
+    bottom: 0;
+}
+
+.email{
+  
+  left: 700px;
+  top: 656px;
+  right: 0;
+  bottom: 0;
+}
+
+
+.title1,
+.title2,
+.title3{
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin: auto;
+  font-family: "Madimi One", sans-serif;
+  font-size: 20px;
+}
+
+
+.title1{
+  
+    left: 300px;
+    top: 710px;
+    right: 0;
+    bottom: 0;
+}
+
+.title2{
+  left: 850px;
+  top: 710px;
+  right: 0;
+  bottom: 0;
+
+}
+
+.title3{
+  left: 1200px;
+  top: 710px;
+  right: 0;
+  bottom: 0;
+ 
+}
+
+.borderline{
+  width: 100vw;
+  height: 150px;
+  background-color: #0026ff;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 674px;
+  right: 200px;
+  bottom: 0;
+
+}
+.logo{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 570px;
+  right: 1400px;
+  bottom: 0;
+}
+
+
+.skill{
+  position: absolute;
+  margin: auto;
+  left: 350px;
+  top: 110px;
+  right: 0;
+  bottom: 0;
+  font-size: 50px;
+  color: rgb(42, 111, 47);
+  font-family: "Angkor", serif;
+}
+
+.nav{
+  position: relative;
+  left: -30px;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+
+}
+

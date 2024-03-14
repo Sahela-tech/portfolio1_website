@@ -1,0 +1,191 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a1515;
+    position: relative;
+    font-family: "Lato", sans-serif;
+}
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0059ff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #ffffff;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+.div1{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.open{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    left: 30px;
+    top: 30px;
+    right: 0;
+    bottom: -0;
+}
+
+.responsive{
+    position: absolute;
+    margin: auto;
+    top: 200px;
+
+}
+
+.logo1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: -170px;
+    right: 0;
+    bottom: 0;
+
+}
+
+.bx1,
+.bx2,
+.bx3,
+.bx4{
+  position: absolute;
+  margin: auto;
+
+  box-shadow: 10px 10px  rgb(140, 168, 177);
+}
+
+.bx1{
+    width: 400px;
+    height: 300px;
+    left: 0;
+    top: 0;
+    right: 500px;
+    bottom: 400px;
+} 
+
+.bx2{
+    width: 400px;
+    height: 300px;
+    left: 0;
+    top: 400px;
+    right: 500px;
+    bottom: 0;
+}
+
+.bx3{
+
+    width: 400px;
+    height: 300px;
+    left: 1000px;
+    top: 400px;
+    right: 0;
+    bottom: 0;
+}
+
+.bx4{
+    width: 400px;
+    height: 300px;
+    left: 1000px;
+    top: 0;
+    right: 0;
+    bottom: 400px;
+}
+
+.txt{
+  position: absolute;
+  margin: auto;
+  left: 800px;
+  top: 350px;
+  right: 0;
+  bottom: 0;
+  font-size: 40px;
+  color: rgb(255, 81, 0);
+  font-family: "Sigmar One", sans-serif;
+}
+
+.jarvis,
+.software,
+.game,
+.portfolio{
+  color: white;
+  font-size: 40px;
+  font-family: "Iceland", sans-serif;
+}
+
+.jarvis{
+    position: absolute;
+    margin: auto;
+    left:340px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.software{
+  position: absolute;
+  margin: auto;
+  left: 345px;
+  top: 390px;
+  right: 0;
+  bottom: 0;
+}
+
+.game{
+  position: absolute;
+  margin: auto;
+  left: 1100px;
+  top: 390px;
+  right: 0;
+  bottom: 0;
+}
+
+.portfolio{
+  position: absolute;
+  margin: auto;
+  left: 1160px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
